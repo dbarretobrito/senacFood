@@ -39,7 +39,7 @@ Com base nas personas, desenvolvemos diferentes jornadas de uso, com destaque pa
 
 ## <img src="https://img.icons8.com/ios-filled/50/FFFFFF/video.png" width="30" alt="ícone de vídeo branco"/> Prova de Conceito
 
->> Clique aqui para assistir a prova de conceito, baseado em uma das jornadas do usuário.
+>> Clique [AQUI](https://www.youtube.com/watch?v=HSVcn3xLuww&feature=youtu.be) para assistir a prova de conceito, baseado em uma das jornadas do usuário.
 
 ## 📌 Considerações Finais
 
