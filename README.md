@@ -43,7 +43,7 @@ Com base nas personas, desenvolvemos diferentes jornadas de uso, com destaque pa
 
 ## 📌 Considerações Finais
 
-O projeto - -  nasce de uma necessidade real observada no comportamento atual dos usuários em relação à alimentação, tempo e desperdício. A proposta alia **tecnologia, usabilidade e propósito social**, promovendo uma nova forma de se conectar com a cozinha.
+O projeto nasce de uma necessidade real observada no comportamento atual dos usuários em relação à alimentação, tempo e desperdício. A proposta alia **tecnologia, usabilidade e propósito social**, promovendo uma nova forma de se conectar com a cozinha.
 
 ---
 
