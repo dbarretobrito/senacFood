@@ -1,0 +1,159 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(#cdd3f0, #5c6bc0);
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.divForm {
+  width: 500px;
+  max-width: 100%;
+  height: 550px;
+  background-color: #cdd3f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.7);
+  margin-top: 50px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.error {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.registerError {
+  color: #5c6bc0;
+  font-weight: bold;
+  font-size: 18px;
+  font-weight: light;
+}
+
+.labels {
+  color: #5c5959;
+  font-size: 18px;
+}
+.userInputs {
+  width: 300px;
+  height: 50px;
+  font-size: 15px;
+  padding-left: 15px;
+  margin: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  color: #5c5959;
+}
+
+.submitBtn {
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 15px;
+  margin-top: 50px;
+  cursor: pointer;
+  transition: ease;
+  background-color: #5c6bc0;
+  color: #fff;
+}
+
+.submitBtn:hover {
+  opacity: 0.9;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+}
+.loginParagraph {
+  margin-top: 20px;
+  color: #5c5959;
+}
+.links {
+  color: #5c6bc0;
+  font-weight: bold;
+}
+
+.footerContent {
+  height: 30px;
+  display: flex;
+  align-items: end;
+  width: 100%;
+  height: 150px;
+}
+.copyP {
+  max-width: 900px;
+  text-align: center;
+  color: #fff;
+  opacity: 0.5;
+  font-size: 12px;
+  margin: 0 auto;
+  word-wrap: break-word;
+}
+
+/* media querys */
+@media screen and (max-width: 768px) {
+  .mainContainer {
+    background: #5c6bc0; /* roxo sólido */
+    padding: 20px;
+    height: auto;
+  }
+
+  .divForm {
+    width: 480px;
+    height: auto;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .labels {
+    margin-top: 20px;
+  }
+  .userInputs {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .submitBtn {
+    width: 100%;
+  }
+
+  .copyP {
+    padding: 10px;
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .labels {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  .userInputs {
+    height: 45px;
+    font-size: 13px;
+    padding-left: 10px;
+  }
+
+  .submitBtn {
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  .copyP {
+    font-size: 10px;
+  }
+}

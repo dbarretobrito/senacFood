@@ -1,0 +1,59 @@
+body{
+    background-color:#eaf1ff;
+}
+.divPrincipal{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.headerContainer{
+    width: 100%;
+    height: 100px;
+    background-color: #5c6bc0;
+}
+.navUser{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+.usuarioContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 40px;
+}
+.userDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    border-radius: 50px;
+    background-color: #eaf1ff;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.userName{
+    color: #EAF1FF;
+    font-weight: bold;
+}
+.userIcon{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.mainContent{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex: 1;
+
+}
+@media screen and (max-width: 768px) {
+    .mainContent{
+        display: flex;
+        flex-direction: column;
+    }
+}

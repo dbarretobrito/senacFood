@@ -1,0 +1,94 @@
+.mainDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+}
+.title{
+    font-weight: bold;
+    font-size: 40px;
+    color: #5c6bc0;
+}
+.voltar{
+    display: flex;
+    justify-content: center; 
+    padding: 20px;                            
+    box-sizing: border-box; 
+}
+.voltarBtn{
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .4s;
+    background-color: #5c6bc0;
+    color: #fff;
+}
+.voltarBtn:hover{
+    transform: scale(.98);
+    opacity: .95;
+}
+.receitas{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 100vh;
+    gap: 2rem;
+}
+/* media query */
+@media (max-width: 768px) {
+  .mainDiv {
+    height: auto;
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .voltar {
+    width: 100%;
+    padding: 10px;
+    justify-content: center;
+  }
+
+  .voltarBtn {
+    background-color: #CDD3F0;
+    color: #5c6bc0;
+    font-size: 14px;
+  }
+
+  .receitas {
+   max-width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  /* Adicionado */
+    width: 100%;  
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 22px;
+  }
+
+  .voltarBtn {
+    padding: 12px 15px;
+    font-size: 12px;
+  }
+
+  .receitas {
+     margin-bottom: 30px;
+    gap: 0.8rem;
+    align-items: center;     /* Adicionado para centralizar */
+    justify-content: center; /* Adicionado */
+    width: 100%;
+  }
+}

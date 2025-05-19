@@ -1,0 +1,247 @@
+.MainContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.formDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 680px;
+    width: 600px;
+    background-color: #5C6BC0;
+    border-radius: 8px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.titleDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.title{
+    font-size: 25px;
+    font-weight: bold;
+    color: #CDD3F0;
+}
+.error{
+    margin: 5px;
+    min-height: 24px;
+}
+.registerError{
+    color: #CDD3F0;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.nameL, .ingredientesL, .passosL, .categoriaL {
+    color: #CDD3F0;
+    font-size: 18px;
+    margin: 7px 0px;
+}
+.userInputs{
+    width: 300px;
+    height: 50px;
+    font-size: 15px;
+    padding-left: 15px;
+    border: none;
+    outline: none;
+    color: #5C5959;
+    border-radius: 8px;
+}
+.textArea{
+    width: 300px;
+    height: 100px;
+    font-size: 15px;
+    padding: 15px;
+    border: none;
+    outline: none;
+    color: #5C5959;
+    border-radius: 8px;
+    resize: vertical;
+    overflow: auto;
+}
+.selection{
+    margin: 20px 0px;
+    width: 300px;
+    height: 40px;
+    padding: 0px 15px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    color: #5C5959;
+    border-radius: 7px;
+}
+.divisor{
+    display: flex;
+    justify-content: center;
+    padding: 1px 10px;
+    border-radius: 8px;
+    background-color: #CDD3F0;
+    opacity: .8;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.voltar, .cadastrar{
+    width: 150px;
+    height: 50px;
+    background-color: #CDD3F0;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all .4s;
+    cursor: pointer;
+}
+
+.voltar{
+    color: #5c6bc0;
+}
+.cadastrar{
+    color: #5c6bc0;
+}
+.voltar:hover, .cadastrar:hover{
+    transform: scale(.95);
+    opacity: .8;
+}
+
+@media (max-width: 768px) {
+    body {
+        
+    }
+
+    .MainContent {
+        height: auto;
+    }
+
+    .formDiv {
+        width: 90%;
+        height: auto;
+        box-shadow: none;
+        border-radius: 0;
+        background-color: transparent;
+    }
+
+    .form {
+        width: 100%;
+        align-items: center;
+    }
+
+    .userInputs,
+    .textArea,
+    .selection {
+        width: 90%;
+    }
+
+    .btn {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .voltar, .cadastrar {
+        background-color: #cdd3f0;
+        color: #5C6BC0;
+        width: 500px;
+        height: 45px;
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        box-sizing: border-box;
+        background-color: #cdd3f0;
+        margin: 0;
+        padding: 0;
+    }
+
+    .MainContent {
+        width: 100%;
+        padding: 20px 10px;
+        min-height: 100vh;
+    }
+
+    .formDiv {
+        width: 100%;
+        height: auto;
+        background-color: transparent;
+        box-shadow: none;
+        border-radius: 0;
+        padding: 10px;
+    }
+
+    .form {
+        width: 100%;
+        align-items: center;
+    }
+
+    .title {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .nameL, .ingredientesL, .passosL, .categoriaL {
+        color: #5C6BC0;
+        font-size: 16px;
+        margin: 5px 0;
+    }
+
+    .userInputs,
+    .textArea,
+    .selection {
+        width: 100%;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .textArea {
+        height: 80px;
+    }
+
+    .btn {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .voltar, .cadastrar {
+        background-color: #5C6BC0;
+        color: #CDD3F0;
+        width: 100%;
+        height: 45px;
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+
+    .error, .registerError {
+        font-size: 14px;
+        min-height: 20px;
+    }
+
+    .divisor {
+        margin: 10px 0;
+    }
+}
+

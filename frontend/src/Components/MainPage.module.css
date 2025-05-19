@@ -1,0 +1,37 @@
+.mainContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    height: 100vh;
+    background: linear-gradient(#b7bcd8, #5c6bc0);
+}
+.ButtonsDiv{
+    flex: 1; /* ocupa o espaço restante */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainButtons{
+    
+    display: flex;
+    gap: 1rem;
+}
+
+.registerBtn, .loginBtn{
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+    height: 100px;
+    width: 200px;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #5c6bc0;
+    color: #fff;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.registerBtn:hover, .loginBtn:hover{
+    transform: scale(.98);
+    opacity: .9;
+}
