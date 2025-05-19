@@ -1,4 +1,4 @@
-# 🍲 - - 
+# 🍲 Senac Food
 
 Aplicativo de receitas culinárias inteligente e personalizado, desenvolvido para atender a continuação do Projeto Integrador do curso de **Análise e Desenvolvimento de Sistemas - SENAC**. A proposta visa facilitar a vida na cozinha, oferecendo receitas adaptadas ao dia a dia do usuário, aos ingredientes disponíveis em casa e ao seu nível de experiência.
 
